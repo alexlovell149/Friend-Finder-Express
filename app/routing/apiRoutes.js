@@ -37,7 +37,7 @@ module.exports = function(app) {
 
             // loop through friends and users score and calculate absolute difference and push total to newData
             for (var j = 0; j < 10; j++) {
-                totalDifference += Math.abs(parseInt(newScores[j]) - parseInt(friends[i].scores[j]));
+                totalDifference += Math.abs(parseInt(newScores[j]) - parseInt(friendInput[i].scores[j]));
 
                 if (totalDifference <= newFriend.friendDifference) {
 
