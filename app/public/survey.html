@@ -182,7 +182,7 @@ for (var selector in config) {
 
 // Capture the form inputs 
 $("#submit").on("click", function() {
-    event.preventDefault();
+
     // Form validation
     function validateForm() {
         var isValid = true;
@@ -222,7 +222,7 @@ $("#submit").on("click", function() {
             $('#matchImg').attr("src", data.photo);
 
             // Show the modal with the best match 
-            $("#resultsModal").modal("show");
+            $("#resultModal").modal("show");
 
         });
 
