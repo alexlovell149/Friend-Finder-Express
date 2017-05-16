@@ -1,0 +1,19 @@
+{
+  "name": "friend-finder-express",
+  "version": "1.0.0",
+  "description": "app using node.js and express.js to match users based on survey results",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://alexlovell149.github.io/Friend-Finder-Express/"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
