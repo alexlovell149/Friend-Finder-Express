@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>FriendFinder</title>
     <!-- Latest compiled and minified CSS & JS -->
-	<!-- jQuery CDN -->
+    <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- bootstrap css -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,10 +17,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- bootstrap java cdn -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
     <!-- chosen jquery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -167,9 +165,8 @@
             </div>
         </div>
     </div>
- <script>
-
- 	// making all the chosen parameters for each class in the html
+    <script>
+    // making all the chosen parameters for each class in the html
     var config = {
         '.chosen-select': {},
         '.chosen-select-deselect': {
@@ -220,7 +217,7 @@
                 scores: [parseInt($("#q1").val()), parseInt($("#q2").val()), parseInt($("#q3").val()), parseInt($("#q4").val()), parseInt($("#q5").val()), parseInt($("#q6").val()), parseInt($("#q7").val()), parseInt($("#q8").val()), parseInt($("#q9").val()), parseInt($("#q10").val())]
             }
 
-           
+
 
             console.log(userData);
 
@@ -242,14 +239,13 @@
             });
 
 
-        } 
-        else {
+        } else {
             alert("Please fill out your fields!");
         }
 
         return false;
     });
- </script>
+    </script>
 </body>
 
 </html>
