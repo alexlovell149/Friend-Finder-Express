@@ -4,3 +4,10 @@
 	padding: 15px;
 }
 
+body {
+	background-image: url(https://us.123rf.com/450wm/IKO/IKO1509/IKO150900214/45369853-group-of-friends-meeting-in-the-local-coffee-shop.jpg?ver=6);
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
